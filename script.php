@@ -6,7 +6,7 @@
         array(21 , 20 , 16),
         array(10 , 9 , 11),
         array(12  ,5 , 6  ),
-        array(13 , 19 , 26),
+        array(26, 13 , 19 ),
     );
 
     if($_REQUEST['voie']) $voie= (int)$_REQUEST['voie'] - 1  ;
