@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Contrôle GPIO</title>
-        <link rel="stylesheet" type="text/css" href="stylesheet.css" /link>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" >
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="undefined" crossorigin="anonymous"></script>
         <script src="script.js"></script>
@@ -11,10 +11,6 @@
     <body>
        
     <form action="script.php" method="get" class="form-example">
-        <div class="custom-control custom-switch">
-            <input type="checkbox" class="custom-control-input" id="customSwitch1">
-            <label class="custom-control-label" for="customSwitch1">Toggle this switch element</label>
-        </div>
  
         <div class="custom-control custom-switch">
             <input type="checkbox" class="custom-control-input" id="1" value="1">
@@ -47,8 +43,6 @@
 
 
     </form>
-
-    
 
     </body>
 </html>

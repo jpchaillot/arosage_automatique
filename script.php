@@ -52,8 +52,8 @@
     }
 
 
- var_dump($_REQUEST);
- sleep(10);
- header('Location: index.php');
+//  var_dump($_REQUEST);
+//  sleep(10);
+//  header('Location: index.php');
     
 ?>
